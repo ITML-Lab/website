@@ -1,0 +1,159 @@
+:root {
+    --crimson: #990000;
+    --darkcrimson: #550000;
+    --cream: #edebeb;
+    --midnight: #006298;
+}
+
+.navbar {
+    background-color: var(--crimson);
+}
+.navbar .navbar-brand {
+    color: var(--cream);
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: var(--cream);
+}
+.navbar .navbar-text {
+    color: var(--cream);
+}
+.navbar .navbar-text a {
+    color: var(--cream);
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: var(--cream);
+}
+.navbar .navbar-nav .nav-link {
+    color: var(--cream);
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: var(--cream);
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: var(--cream);
+    background-color: var(--darkcrimson);
+}
+.navbar .navbar-toggle {
+    border-color: var(--darkcrimson);
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: var(--darkcrimson);
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: var(--cream);
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: var(--cream);
+}
+.navbar .navbar-link {
+    color: var(--cream);
+}
+.navbar .navbar-link:hover {
+    color: var(--cream);
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: var(--cream);
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: var(--cream);
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: var(--cream);
+        background-color: var(--darkcrimson);
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: var(--cream);
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: var(--cream);
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: var(--cream);
+        background-color: var(--darkcrimson);
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: var(--cream);
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: var(--cream);
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: var(--cream);
+        background-color: var(--darkcrimson);
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: var(--cream);
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: var(--cream);
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: var(--cream);
+        background-color: var(--darkcrimson);
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: var(--cream);
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: var(--cream);
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: var(--cream);
+    background-color: var(--darkcrimson);
+}
+
+.card {
+    border: 0 solid var(--crimson);
+    background-color: var(--cream);
+}
+
+.people-card {
+    border: 1px solid var(--crimson);
+    background-color: var(--cream);
+}
+
+.row {
+    margin: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding:0px;
+}
+
+.grid-container {
+    display: grid;
+    margin:auto;
+    grid-template-columns: repeat(2, 1fr);
+}
